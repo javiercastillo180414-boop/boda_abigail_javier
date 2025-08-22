@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail & Javier - Nuestra Boda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <section class="portada fade-in">
+        <img src="portada.png" alt="Portada de la boda" class="portada-img">
+    </section>
+
+    <section class="intro fade-in">
+        <div class="intro-text">
+            <h1>Abigail Segovia & Javier Castillo</h1>
+            <p>Nos complace invitarte a celebrar el inicio de nuestra nueva aventura juntos.</p>
+            <p>Acompáñanos el <strong>26 de noviembre de 2026</strong> en <strong>Monterrey, N.L.</strong> para compartir un día lleno de amor, alegría y memorias inolvidables.</p>
+            <p>¡Tu presencia hará nuestro día aún más especial!</p>
+        </div>
+    </section>
+
+    <section class="countdown fade-in">
+        <h2>Faltan...</h2>
+        <div id="timer"></div>
+    </section>
+
+    <section class="rsvp fade-in">
+        <h2>Confirma tu asistencia</h2>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Confirmar</button>
+        </form>
+    </section>
+
+    <section class="map fade-in">
+        <h2>Ubicación</h2>
+        <iframe src="https://www.google.com/maps?q=Monterrey,Nuevo+Leon&output=embed" width="100%" height="300" style="border:0;"></iframe>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
